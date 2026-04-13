@@ -7,7 +7,7 @@
     "vscodeCtrlJ": "./bin/vscode-hide-panel.js"
   },
   "scripts": {
-    "npm-link": "npm link & ctrlj",
+    "npm-link": "npm link & ctrlj 1",
     "npm-unlink": "npm unlink",
     "git-opushforce": "git opushforce & ctrlj --ms=3000"
   },
