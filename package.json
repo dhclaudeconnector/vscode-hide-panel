@@ -1,0 +1,20 @@
+{
+  "name": "vscode-hide-panel",
+  "version": "1.0.0",
+  "description": "Send Ctrl+J to VSCode to hide the terminal panel",
+  "bin": {
+    "ctrlj": "./bin/vscode-hide-panel.js",
+    "vscodeCtrlJ": "./bin/vscode-hide-panel.js"
+  },
+  "scripts": {
+    "npm-link": "npm link && ctrlj",
+    "npm-unlink": "npm unlink",
+    "git-opushforce": "git opushforce && ctrlj"
+  },
+  "keywords": [
+    "vscode",
+    "terminal",
+    "panel"
+  ],
+  "license": "MIT"
+}
